@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <!--tools:context="jasonantao.testappmock1.DataEntry">-->
+    <!--Note: Above line not needed-->
+
+    <TextView
+        android:id="@+id/text_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="Placeholder Content"
+        />
+
+    <Button
+        android:id="@+id/button_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Email me my dues"
+        android:onClick="sendMessage"/>
+
+
+</LinearLayout>
+
+
+

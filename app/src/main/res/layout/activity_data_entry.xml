@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:orientation="vertical">
+
+    <!--tools:context="jasonantao.testappmock1.DataEntry">-->
+    <!--Note: Above line not needed-->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcherlogo"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_marginTop="10dp"
+
+        android:text="Enter your current debt:"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter your current debt."
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+
+        android:text="Interest Rate Per Period:"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/text_input1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Whole percentage number."
+        android:inputType="text" />
+
+    <ListView
+        android:id="@+id/recipe_list_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    </ListView>
+
+    <Button
+        android:id="@+id/button_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Click to compute"
+        android:textColor="@android:color/white"
+        android:background="@drawable/round_button"
+
+        android:onClick="sendMessage"/>
+
+</LinearLayout>
+
+
+

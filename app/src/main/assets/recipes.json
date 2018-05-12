@@ -1,0 +1,45 @@
+{
+  "recipes": [
+    {
+      "title": "Toronto Dominion Bank",
+      "image" : "https://logo.clearbit.com/td.com",
+      "url": "http://www.google.com",
+      "description": "Toronto's home bank, and North America's most stable financial institution. TD Bank offers a variety of products that serve millions of people every day in North America, and around the world.",
+      "servings": 4,
+      "dietLabel": "Elite",
+      "ingredientLines" : [ "Long Term Loans", "Mortage", "Line of Credit", "Student Loans", "Fraud Protection Insurance"]
+    },
+
+    {
+      "title": "Bank of Montreal",
+      "image" : "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_auto,b_white,q_auto:eco/v1453115610/qvrkybbcx6zyfsefdyli.png",
+      "url": "http://www.google.com",
+      "description": "The Bank of Montreal, headed in Montreal, Canada is one of the big four, known for its high-tech institution and interaction products. ",
+      "servings": 4,
+      "dietLabel": "Everyday",
+      "ingredientLines" : [ "" ]
+    },
+
+    {
+      "title": "CIBC Bank",
+      "image" : "https://lh3.ggpht.com/qsRaPztgRTZYqqAJjCmSaYHwi-XjLWq-8gdaBtFgvHz26uJs_ewNnT9vX33vjZhdZGO_=s128",
+      "url": "http://www.google.com",
+      "description": "CIBC Bank remains one of Canada's largest, with the largest commercial backing.  ",
+      "servings": 4,
+      "dietLabel": "Commercial",
+      "ingredientLines" : [ "" ]
+    },
+
+    {
+      "title": "The Bank of Nova Scotia",
+      "image" : "https://logo.clearbit.com/scotiabank.com",
+      "url": "http://www.google.com",
+      "description": "Headed in Toronto, Scotiabank is prominent across Canada and the Carribean for millions of users.  ",
+      "servings": 4,
+      "dietLabel": "Everyday",
+      "ingredientLines" : [ "" ]
+    },
+
+
+  ]
+}
